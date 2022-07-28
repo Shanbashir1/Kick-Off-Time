@@ -12,8 +12,8 @@ body{
     margin: 0;
     display: flex;
     flex-direction: column;
-    width: 90vw;
-    height: 90vh;
+    width: 100vw;
+    height: 100vh;
     justify-content:center ;
     align-items: center;
 
@@ -65,3 +65,43 @@ body{
     display: none;
 }
 
+.footer {
+    font-size: 50px;
+    justify-content: center;
+    padding: 20px;
+    margin: 20%;
+    display: inline;
+    color: red;
+}
+.follow {
+
+    color: #fff;
+    margin: 1rem;
+}
+#footer-email {
+
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin: 6%;
+}
+
+#footer-email-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #f94230;
+    color: #fff;
+    font-size: 1rem;
+    margin: 2%;
+
+}
+.join {
+    text-align: center;
+    color: #fff;
+ }
