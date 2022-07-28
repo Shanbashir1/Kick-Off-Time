@@ -1,9 +1,10 @@
 .kick {
 
-    font-size: 50px;
-    color: #fafafa;
+    font-size: 40px;
+    color: #fff;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    margin-top: 1rem;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -13,7 +14,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    height: 96vh;
     justify-content:center ;
     align-items: center;
 
@@ -72,36 +73,86 @@ body{
     margin: 20%;
     display: inline;
     color: red;
+
 }
 .follow {
 
     color: #fff;
     margin: 1rem;
+
 }
 #footer-email {
 
     width: 250px;
-    height: 40px;
+    height: 30px;
     border-radius: 4px;
     outline: none;
     border: none;
     padding-left: 0.5rem;
     font-size: 1rem;
-    margin-bottom: 1rem;
-    margin: 6%;
+    margin: 3rem;
+
 }
 
 #footer-email-btn {
     width: 100px;
-    height: 40px;
+    height: 35px;
     border-radius: 4px;
     background-color: #f94230;
     color: #fff;
     font-size: 1rem;
-    margin: 2%;
+    padding: 0;
+    outline: none;
+    border: none;
 
 }
 .join {
     text-align: center;
     color: #fff;
  }
+
+
+ /**Media Queries**/
+
+ /* Small Media to Medium screen size from min-width 280px to max-width 500px wide and down */
+
+ @media screen and (min-width: 280px) and (max-width:500px) {
+    .kick {
+        font-size: 20px;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer {
+        font-size: 35px;
+        
+    }
+
+    .follow {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .join {
+        font-size: 0.8rem;
+    }
+
+    #footer-email-btn {
+        width: 100px;
+        height: 35px;
+        text-align: center;
+        margin-left: 35%;
+    }
+    #footer-email {
+        width: 80vw;
+    }
+
+
+
+
+ }
+
+
+
+
+
