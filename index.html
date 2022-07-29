@@ -11,7 +11,7 @@
     <header class="kick"> KICK OFF TIME<i class="fas fa-futbol"></i></header>
     
     <div class ="container">
-        <div id ="container-question" class="hide"></div>
+        <div id ="container-question" class="hide">
         <div id ="question">Question</div>
         <div id ="answer-buttons" class="btn-grid">
             <button class="btn">Answer 1</button>
@@ -19,11 +19,19 @@
             <button class="btn">Answer 3</button>
             <button class="btn">Answer 4</button>
         </div>
+    </div>
         <div class ="controls">
             <button id ="start-btn" class ="start-btn btn">Start</button>
             <button id ="next-btn" class ="next-btn btn hide">Next</button>
         </div>
+
+        <div class="score-area">
+            <p class="scores">Correct Answers <span id="score">0</span></p>
+            <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
+        </div>
     </div>
+
+    
 
     <footer>
         <h2 class="follow">Follow us for new games available online</h2>
