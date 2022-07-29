@@ -48,7 +48,16 @@ body{
 }
 
 .btn:hover {
-    background-color:  #564d4d;
+    background-color: #f94230;
+}
+
+.btn.correct{
+    --hue:var(--hue-correct);
+   background-color: #1b1918;
+}
+.btn.wrong{
+    --hue:var(--hue-wrong);
+
 }
 
 #start-btn, #next-btn {
