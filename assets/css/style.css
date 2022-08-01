@@ -41,7 +41,7 @@ body{
     border: 1px solid #3a3a3a;
     background-color: #5a5a;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 1.5rem 2.5rem;
     outline: none;
     color: #fafafa;
     font-weight: bold;
@@ -53,10 +53,11 @@ body{
 
 .btn.correct{
     --hue:var(--hue-correct);
-   background-color: #1b1918;
+   background-color: lightgreen
 }
 .btn.wrong{
     --hue:var(--hue-wrong);
+    background-color: lightpink;
 
 }
 
@@ -120,11 +121,19 @@ body{
     color: #fff;
  }
 
- .scores {
-    display: inline-block;
-    justify-content: center;
-    margin: 35px;
-    padding: 15px;
+
+#counter, scores-tracker {
+    text-align: center;
+}
+
+.prefix {
+    text-align: center;
+    font-size: 1rem;
+}
+
+#counter, #score-up {
+    font-size: 1rem;
+    text-align: center;
 }
 
 
