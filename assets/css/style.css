@@ -1,10 +1,11 @@
 .kick {
 
-    font-size: 40px;
+    font-size: 35px;
     color: #fff;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    margin-top: 12rem;
+    margin-top:5rem;
+    margin-bottom: 2%;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -14,11 +15,11 @@ body{
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 96vh;
+    height: 95vh;
     justify-content:center ;
     align-items: center;
 
-    background: url('../images/football.png') center; 
+    background: url('../images/football.png') center;
 }
 
 .container {
@@ -62,7 +63,7 @@ body{
 }
 
 #start-btn, #next-btn {
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 10px 20px;
 }
 
@@ -77,24 +78,27 @@ body{
 }
 
 .footer {
-    font-size: 50px;
+    font-size: 30px;
     justify-content: center;
     padding: 20px;
     margin: 20%;
     display: inline;
-    color: red;
+    background-color: red;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
 }
 .follow {
 
     color: #fff;
     margin: 1rem;
+    font-size: 20px;
 
 }
 #footer-email {
 
     width: 250px;
-    height: 30px;
+    height: 20px;
     border-radius: 4px;
     outline: none;
     border: none;
@@ -119,6 +123,7 @@ body{
 .join {
     text-align: center;
     color: #fff;
+    font-size: 20px;
  }
 
 
@@ -129,10 +134,21 @@ body{
 .prefix {
     text-align: center;
     font-size: 1rem;
+    margin: 0;
+    padding: 0;
 }
 
 #counter, #score-up {
     font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.main-footer {
+    height: 20vh;
+    width: 100vw;
+    justify-content: center;
     text-align: center;
 }
 

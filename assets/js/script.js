@@ -130,7 +130,7 @@ let questions = [
     {
         question: 'Who missed the penalty for England in the Euro 96 Semi Finals against Germany?',
         answers: [
-            { text: 'Paul Gascoine', correct: false },
+            { text: 'Paul Gasgcoine', correct: false },
             { text: 'Alan Shearer', correct: false },
             { text: 'Gareth Southgate', correct: true },
             { text: 'David Beckham', correct: false }
@@ -139,12 +139,34 @@ let questions = [
     }, 
 
     {
-        question: 'How many times has Ronaldo Ballon d or?',
+        question: 'How many times has Ronaldo won the Ballon d or?',
         answers: [
             { text: '4', correct: false },
             { text: '3', correct: false },
             { text: '5', correct: true },
             { text: '1', correct: false }
+        ]
+
+    }, 
+
+    {
+        question: 'Who was the leading Premier League goalscorer for the season 21/22?',
+        answers: [
+            { text: 'Mo Salah', correct: true },
+            { text: 'Ronaldo', correct: false },
+            { text: 'Son Heung-Min', correct: false },
+            { text: 'Harry Kane', correct: false }
+        ]
+
+    }, 
+
+    {
+        question: 'How many times have England won the World Cup?',
+        answers: [
+            { text: '2', correct: false },
+            { text: '3', correct: false },
+            { text: '5', correct: false },
+            { text: '1', correct: true }
         ]
 
     }, 
